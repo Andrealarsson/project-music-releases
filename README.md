@@ -1,12 +1,7 @@
-# Music Releases
-Replace this readme with your own information about your project.
+# Spotify Music Releases
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+The project was to create a page that displays newly released spotify albums in a nice way using React. The data was pulled from a static Spotify API.
 
-## The problem
-
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I ran into a specific problem with adding a "," at the end of every index in an array. It took quite a while to come up with a solution for this but ultimately I figured out that I could check the length of array with index (The index of the current element being processed in the array.).
 
 ## View it live
-
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
